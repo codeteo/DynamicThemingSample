@@ -7,4 +7,12 @@
     <string name="bottom_bar_favorite">Favorite</string>
     <string name="bottom_bar_star">Star</string>
     <!-- Bottom Bar end-->
+
+    <!-- Fragments start-->
+    <string name="home_label_title">Home</string>
+    <string name="replay_label_title">Replay</string>
+    <string name="favorite_label_title">Favorite</string>
+    <string name="star_label_title">Star</string>
+    <!-- Fragments end -->
+
 </resources>

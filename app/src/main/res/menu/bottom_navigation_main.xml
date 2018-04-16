@@ -20,7 +20,7 @@
         android:title="@string/bottom_bar_favorite"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/action_music"
+        android:id="@+id/action_star"
         android:enabled="true"
         android:icon="@drawable/ic_star_white"
         android:title="@string/bottom_bar_star"
