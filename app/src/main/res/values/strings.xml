@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">DynamicTheming</string>
+    <string name="app_name">Dynamic Theming</string>
+
+    <!-- Bottom Bar start-->
+    <string name="bottom_bar_home">Home</string>
+    <string name="bottom_bar_replay">Replay</string>
+    <string name="bottom_bar_favorite">Favorite</string>
+    <string name="bottom_bar_star">Star</string>
+    <!-- Bottom Bar end-->
 </resources>
