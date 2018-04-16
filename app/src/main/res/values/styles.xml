@@ -1,11 +1,34 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="colorPrimary">?themeColorPrimary</item>
+    </style>
+
+    <!-- Home Theme -->
+    <style name="HomeTheme" parent="AppTheme">
+        <item name="themeColorPrimary">@color/material_blue</item>
+    </style>
+
+    <!-- Replay Theme -->
+    <style name="ReplayTheme" parent="AppTheme">
+        <item name="themeColorPrimary">@color/material_green</item>
+    </style>
+
+    <!-- Favorite Theme -->
+    <style name="FavoriteTheme" parent="AppTheme">
+        <item name="themeColorPrimary">@color/material_orange</item>
+    </style>
+
+    <!-- Star Theme -->
+    <style name="StarTheme" parent="AppTheme">
+        <item name="themeColorPrimary">@color/material_purple</item>
     </style>
 
 </resources>
